@@ -44,7 +44,7 @@ const Contact = () => {
       name="name"
       placeholder="Name*"
       required
-      className="border-b-1 border-gray-500 rounded-2xl px-4 py-2"
+      className="border-b border-gray-500 rounded-2xl px-4 py-2"
     />
 
     <input
@@ -52,14 +52,14 @@ const Contact = () => {
       name="email"
       placeholder="Email*"
       required
-      className="border-b-1 border-gray-500 rounded-2xl px-4 py-2"
+      className="border-b border-gray-500 rounded-2xl px-4 py-2"
     />
 
     <textarea
       name="message"
       placeholder="Message*"
       required
-      className="border-1 border-gray-500 px-4 py-2 rounded-2xl"
+      className="border-b border-gray-500 px-4 py-2 rounded-2xl"
     ></textarea>
 
     <button
