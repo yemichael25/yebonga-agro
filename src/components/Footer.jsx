@@ -58,16 +58,14 @@ const Footer = () => {
         <div className='flex flex-col justify-center items-center gap-8 md:w-1/2 md:border-r md:border-r-white' >
             <h4 className='text-2xl font-bold'>Find Us</h4>
             <ul className='flex flex-col justify-center items-center gap-8 px-4 py-2 text-sm md:mx-4'>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
+                                <a href="https://www.facebook.com/profile.php?id=61583961327517" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
                                     <ion-icon name="logo-facebook"></ion-icon>Facebook
                                 </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
+                                <a href="https://instagram.com/yebongaagroplc" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
                                     <ion-icon name="logo-instagram"></ion-icon>Instagram
                                 </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
-                                    <ion-icon name="logo-linkedin"></ion-icon>LinkedIn
-                                </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
+                                
+                                <a href="https://tiktok.com/@yebonga.agro.plc" target="_blank" rel="noopener noreferrer" className='cursor-pointer flex gap-2 items-baseline transition-transform duration-300 hover:-translate-y-2'>
                                     <ion-icon name="logo-tiktok"></ion-icon>Tiktok
                                 </a>
             </ul>

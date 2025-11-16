@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center w-full px-4 md:px-8 py-2 fixed top-0 left-0 z-50">
-      <a href="/" className="cursor-pointer fixed top-0 md:top-1 md:left-25 left-5 z-100">
+      <a href="/" className="hidden md:flex items-center ml-2 md:ml-6 z-50">
         <motion.img
           src={Logo}
           alt="Logo"
@@ -31,11 +31,21 @@ const Navbar = () => {
       </a>
 
       <div
-        className={`fixed top-0 right-4 md:top-2 md:bg-white/20 md:backdrop-blur-sm md:border md:border-white/20 md:shadow-lg md:rounded-4xl w-full md:w-auto z-50 flex justify-end items-center bg-white h-20 px-4 transition-opacity duration-300`}
+        className={`fixed inset-x-0 top-0 md:top-2 md:static md:bg-white/20 md:backdrop-blur-sm md:border md:border-white/20 md:shadow-lg md:rounded-4xl w-full md:w-auto z-50 flex justify-between items-center bg-white h-20 px-4 transition-opacity duration-300 md:pl-0`}
       >
+        <a href="/" className="cursor-pointer flex items-center ml-2 md:ml-6 z-50 md:hidden">
+          <motion.img
+            src={Logo}
+            alt="Logo"
+            className="md:h-25 md:w-25 w-20 h-20 object-contain"
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2 }}
+          />
+        </a>
 
         {/* Mobile menu toggle - positioned to the right on small screens */}
-        <div className="md:hidden absolute top-1/2 -translate-y-1/2 flex items-center">
+        <div className="md:hidden absolute top-1/2 -translate-y-1/2 flex items-center right-4">
           {!menuOpen ? (
             <ion-icon
               name="menu-outline"
@@ -57,9 +67,9 @@ const Navbar = () => {
           className={`absolute md:static mb-4 md:bg-transparent bg-white md:min-h-fit min-h-[20vh] md:border-none md:shadow-none
           left-0 top-20 w-full md:w-auto px-5 transition-all duration-300 ${
             menuOpen ? "block" : "hidden"
-          } md:flex md:items-center md:justify-end`}
+          } md:flex md:items-center md:justify-end md:pr-6 md:py-2`}
         >
-          <ul className="flex md:flex-row flex-col justify-end items-center md:gap-8 gap-6 px-4 py-2 text-lg">
+          <ul className="flex md:flex-row flex-col justify-end items-center md:gap-8 gap-6 px-4 py-2 text-lg md:px-0">
             {[
               { label: "Home", href: "/" },
               { label: "About", href: "/about" },

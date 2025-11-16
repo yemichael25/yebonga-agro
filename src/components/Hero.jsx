@@ -89,7 +89,7 @@ const Hero = () => {
           animate={{ x: [0, -10, 10, 0] }}
           transition={{ duration: 4, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
         >
-          "Bringing Ethiopia's Unique Flavours To The World"
+          "Bringing Ethiopia's Unique Flavors To The World"
         </motion.h3>
 
   <div className="flex flex-col sm:flex-row gap-4 w-full justify-center md:justify-start">

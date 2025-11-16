@@ -67,9 +67,11 @@ const StepsMobile = () => {
     <div className="w-full flex flex-col items-center py-8 px-2 my-4" ref={containerRef}>
         <div className="flex-1 max-w-lg">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Discover the Power of Our Products</h2>
-        <p className="mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        <p className="mb-6">
+           At Yebonga Agro PLC, quality is at the heart of everything we produce and market. Our focus is on delivering products that are <span className="text-amber-700">safe, natural, and meet international standards</span> while preserving the unique flavors and authenticity of Ethiopia’s agricultural heritage.
+        </p>
         {!showMore && (
-          <button className="bg-blue-400 text-white font-semibold px-6 py-2 rounded-md mb-4" onClick={() => setShowMore(true)}>Read More</button>
+          <a className="text-blue-500 font-semibold px-6 py-2 rounded-md mb-4" onClick={() => setShowMore(true)}>Read More</a>
         )}
         <div className={`transition-all duration-500 ease-in-out overflow-hidden ${showMore ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
           <div className={`${showMore ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'} transition-all duration-500` }>
@@ -83,7 +85,7 @@ const StepsMobile = () => {
                 <span className="block mt-2 text-lg font-light text-gray-700">Train and support smallholder farmers in improved production and handling methods.</span>
                 <span className="block mt-2 text-lg font-light text-gray-700">Apply rigorous quality control checks at every stage of production and supply.</span>
                 <span className="block mt-2 text-lg font-light text-gray-700">Strive for certifications (organic, fair trade, or export standards) to meet both local and global market requirements.</span>
-                <button className="bg-blue-400 text-white font-semibold px-6 py-2 rounded-md mb-4" onClick={() => setShowMore(false)}>Show Less</button>
+                <button className="text-blue-500 font-semibold px-6 py-2 rounded-md mb-4" onClick={() => setShowMore(false)}>Show Less</button>
               </>
             )}
           </div>

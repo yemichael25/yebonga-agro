@@ -25,7 +25,7 @@ const Testinomial = () => {
             <section id="testimonials" ref={testimonialsRef} className="w-full my-8 pt-25 px-4 md:px-10">
                 <motion.h1
                   key={testimonialsAnimKey}
-                  className="font-serif text-6xl text-center my-4"
+                  className="font-serif md:text-6xl text-5xl text-center my-4"
                   initial={isLarge ? { opacity: 0, y: -40 } : false}
                   animate={isLarge && testimonialsInView ? { opacity: 1, y: 0 } : false}
                   transition={{ duration: 1.2 }}
@@ -34,11 +34,11 @@ const Testinomial = () => {
                 </motion.h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-6">
                   {[{
-                    name: "Alemu T.",
+                    name: "Tefera M.",
                     text: "Bonga Agro's spices are the best I've ever used! Fresh, aromatic, and ethically sourced.",
                     className: "px-2 md:py-8 py-4 border-1 border-blue-400 bg-white rounded-lg shadow-lg"
                   }, {
-                    name: "Sara M.",
+                    name: "Fanuel G.",
                     text: "Their coffee and tea are simply outstanding. Highly recommend to anyone who loves authentic flavors.",
                     className: "px-2 md:py-8 py-4 border-1 border-blue-400 bg-white rounded-lg shadow-lg"
                   }, {
