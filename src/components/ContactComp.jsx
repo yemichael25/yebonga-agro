@@ -44,7 +44,7 @@ const Contact = () => {
       name="name"
       placeholder="Name*"
       required
-      className="border-b border-gray-500 rounded-2xl px-4 py-2"
+      className="border-b border-gray-500 rounded-sm px-4 py-2"
     />
 
     <input
@@ -52,14 +52,14 @@ const Contact = () => {
       name="email"
       placeholder="Email*"
       required
-      className="border-b border-gray-500 rounded-2xl px-4 py-2"
+      className="border-b border-gray-500 rounded-sm px-4 py-2"
     />
 
     <textarea
       name="message"
       placeholder="Message*"
       required
-      className="border-b border-gray-500 px-4 py-2 rounded-2xl"
+      className="border border-gray-500 px-4 py-2 rounded-sm"
     ></textarea>
 
     <button
@@ -99,7 +99,14 @@ const Contact = () => {
               <ion-icon name="location-outline" size="large" className="text-blue-500 group-hover:text-white"></ion-icon>
             </div>
             <h2 className="text-2xl font-bold text-blue-400 mb-4">Visit Us</h2>
-            <p className="text-gray-600">Steet 123, Addis Ababa, Ethiopia</p>
+            <a
+                href="https://maps.app.goo.gl/eJ6tWcspBfyLSz7x7"
+                target="blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-blue-400 transition-colors duration-300"
+              >
+                Wereda 12, Nefassilk Lafto, Addis Ababa
+              </a>
           </div>
         </div>
               </section>
