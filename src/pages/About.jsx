@@ -201,7 +201,7 @@ const About = () => {
       {/* Product Quality Section */}
       <section
         ref={qualityRef}
-        className="py-16 px-6 md:px-20 bg-gradient-to-b from-blue-50 to-white"
+        className="py-16 px-6 md:px-20 bg-linear-to-b from-blue-50 to-white"
       >
         <motion.h2
           className="text-4xl font-serif text-blue-600 text-center mb-10"
@@ -220,7 +220,7 @@ const About = () => {
           {[
             {
               title: "Spices",
-              desc: "Cultivated in the fertile forests of Keficho Zone, our spices — especially korarima — are grown naturally, harvested carefully, and processed hygienically for unmatched aroma and flavor.",
+              desc: "Cultivated in the fertile forests of Keffa Zone, our spices — especially korarima — are grown naturally, harvested carefully, and processed hygienically for unmatched aroma and flavor.",
             },
             {
               title: "Organic Honey",

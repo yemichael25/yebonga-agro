@@ -23,7 +23,7 @@ const Navbar = () => {
         <motion.img
           src={Logo}
           alt="Logo"
-          className="md:h-25 md:w-25 w-20 h-20 object-contain"
+          className="md:h-30 md:w-30 w-20 h-20 object-contain"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2 }}
