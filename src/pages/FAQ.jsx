@@ -22,12 +22,12 @@ const faqs = [
   {
     question: "What products does Yebonga Agro PLC produce?",
     answer:
-      "We specialize in high-quality Ethiopian agricultural products including Corrorima (Ethiopian cardamom), organic forest honey, ginger, coffee, tea, and dairy products. Each product is cultivated and processed using sustainable and modern agricultural practices.",
+      "We specialize in high-quality Ethiopian agricultural products including Korerima (Ethiopian cardamom), organic forest honey, ginger, coffee, tea, and dairy products. Each product is cultivated and processed using sustainable and modern agricultural practices.",
   },
   {
     question: "Where are your products sourced from?",
     answer:
-      "Our products are primarily sourced from the fertile highlands and forest regions of Ethiopia — including the Kaffa Zone and surrounding areas — where the environment naturally supports organic and sustainable farming.",
+      "Our products are primarily sourced from the fertile highlands and forest regions of Ethiopia — including the Keffa Zone and surrounding areas — where the environment naturally supports organic and sustainable farming.",
   },
   {
     question: "Do you export your products internationally?",
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: "How can I contact Yebonga Agro PLC?",
     answer:
-      "You can contact us via our website’s contact page, email (info@yebongaagro.com), or by phone. Our customer service team is always ready to assist with inquiries, partnerships, and distribution requests.",
+      "You can contact us via our website’s contact page, email (info@yebongaagroplc.com), or by phone. Our customer service team is always ready to assist with inquiries, partnerships, and distribution requests.",
   },
 ];
 

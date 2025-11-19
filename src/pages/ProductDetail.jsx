@@ -30,7 +30,7 @@ const products = [
     title: "Korerima (Ethiopian Cardamom)",
     img: Korarima,
     scientific: "Aframomum corrorima",
-    origin: "Kaffa Zone, South-Western Ethiopia",
+    origin: "Keffa Zone, South-Western Ethiopia",
     description:
       "Korerima, also known as Ethiopian cardamom, is a rare spice native to Ethiopia’s lush highlands. Cultivated in forest areas using natural and sustainable practices, it offers a warm, aromatic flavor similar to true cardamom but with a distinctly Ethiopian character.",
     processing: [
@@ -51,7 +51,7 @@ const products = [
   {
     title: "Organic Forest Honey",
     img: Honey,
-    origin: "Highlands and forest areas of Kaffa Zone",
+    origin: "Highlands and forest areas of Keffa Zone",
     description:
       "Yebonga Agro’s organic honey is collected from forest and highland apiaries where bees forage on diverse native flora. The result is a rich, flavorful, and chemical-free honey known for its purity and health benefits.",
     processing: [

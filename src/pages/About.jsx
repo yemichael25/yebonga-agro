@@ -126,10 +126,10 @@ const About = () => {
           </p>
           <p className="leading-relaxed text-gray-700">
             Founded with an initial capital of <strong>10 million ETB</strong>,
-            Yebonga Agro has identified the lush forests of the Kaffa Zone in
+            Yebonga Agro has identified the lush forests of the Keffa Zone in
             South-Western Ethiopia as ideal for cultivating high-value spices,
             particularly <strong>false cardamom (Aframomum corrorima)</strong> —
-            known locally as korarima. Alongside spice cultivation, the company
+            known locally as korerima. Alongside spice cultivation, the company
             is expanding into organic honey production and dairy processing,
             ensuring every product meets global quality standards.
           </p>
@@ -220,7 +220,7 @@ const About = () => {
           {[
             {
               title: "Spices",
-              desc: "Cultivated in the fertile forests of Keffa Zone, our spices — especially korarima — are grown naturally, harvested carefully, and processed hygienically for unmatched aroma and flavor.",
+              desc: "Cultivated in the fertile forests of Keffa Zone, our spices — especially korerima — are grown naturally, harvested carefully, and processed hygienically for unmatched aroma and flavor.",
             },
             {
               title: "Organic Honey",

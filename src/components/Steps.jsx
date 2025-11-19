@@ -39,7 +39,7 @@ export default function StepsTest() {
                             <div className="text-gray-700 text-lg leading-relaxed mt-4">
                                 <p>
                                     <strong>Spices</strong> – Grown in the fertile forest areas of
-                                    Keficho Zone, including{' '}
+                                    Keffa Zone, including{' '}
                                     <span className="text-amber-600 font-semibold">
                                         false cardamom (korerima)
                                     </span>
@@ -73,42 +73,41 @@ export default function StepsTest() {
                 {/* RIGHT: mimic StepsTest sticky card column but with Steps' card content */}
                 <div className="flex-1 md:w-1/2">
                     <div className="flex flex-col gap-[100px]">
-                        <div className="bg-gradient-to-r from-blue-50 to-white shadow-lg border border-blue-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
-                            <h3 className="text-2xl font-bold text-blue-900 mb-2">
+                        <div className="bg-linear-to-r from-blue-50 to-white shadow-lg border border-blue-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
+                            <h3 className="text-3xl font-bold text-blue-900 mb-2">
                                 Quality Korerima and Spices
                             </h3>
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 my-10">
                                 We source the finest korerima and spices from Ethiopia, known for
                                 their exceptional quality and rich flavors.
                             </p>
                         </div>
 
-                        <div className="bg-gradient-to-r from-amber-50 to-white shadow-lg border border-amber-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
-                            <h3 className="text-2xl font-bold text-amber-800 mb-2">
+                        <div className="bg-linear-to-r from-amber-50 to-white shadow-lg border border-amber-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
+                            <h3 className="text-3xl font-bold text-amber-800 mb-2">
                                 Expert Production Process
                             </h3>
-                            <p className="text-gray-700">
-                                Our state-of-the-art facilities ensure that our korerima and
-                                spices are processed with the highest hygiene and quality
+                            <p className="text-gray-700 my-10">
+                                Our state-of-the-art facilities ensure that our products are processed with the highest hygiene and quality
                                 control standards.
                             </p>
                         </div>
 
-                        <div className="bg-gradient-to-r from-green-50 to-white shadow-lg border border-green-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
-                            <h3 className="text-2xl font-bold text-green-800 mb-2">
+                        <div className="bg-linear-to-r from-green-50 to-white shadow-lg border border-green-200 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
+                            <h3 className="text-3xl font-bold text-green-800 mb-2">
                                 Global Export Reach
                             </h3>
-                            <p className="text-gray-700">
-                                We export our premium corrorima and spices worldwide, bringing
+                            <p className="text-gray-700 my-10">
+                                We export our premium products, bringing
                                 the authentic taste of Ethiopia to global consumers.
                             </p>
                         </div>
 
-                        <div className="bg-gradient-to-r from-blue-100 to-white shadow-lg border border-blue-300 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
-                            <h3 className="text-2xl font-bold text-blue-800 mb-2">
+                        <div className="bg-linear-to-r from-blue-100 to-white shadow-lg border border-blue-300 rounded-xl p-8 text-center w-[400px] h-[300px] sticky top-[120px] mx-auto">
+                            <h3 className="text-3xl font-bold text-blue-800 mb-2">
                                 Customer Satisfaction Guaranteed
                             </h3>
-                            <p className="text-gray-700">
+                            <p className="text-gray-700 my-10">
                                 We are committed to providing our customers with top-notch
                                 products and excellent service, ensuring satisfaction every time.
                             </p>
